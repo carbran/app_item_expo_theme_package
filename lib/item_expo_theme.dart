@@ -30,19 +30,19 @@ class ItemExpoTheme {
               ItemExpoColors.pinkGradientTriggered.colors.last,
         ),
     primaryColor: ItemExpoColors.white,
-    scaffoldBackgroundColor: ItemExpoColors.whiteBackground,
+    scaffoldBackgroundColor: ItemExpoColors.lightPurple,
     textSelectionTheme: TextSelectionThemeData(
       cursorColor: ItemExpoColors.white,
-      selectionColor: ItemExpoColors.darkPurple.withAlpha(50),
+      selectionColor: ItemExpoColors.neonPink.withAlpha(50),
       selectionHandleColor: ItemExpoColors.darkPurple,
     ),
     appBarTheme: AppBarTheme(
-      backgroundColor: ItemExpoColors.white,
+      backgroundColor: ItemExpoColors.darkPurple,
       actionsIconTheme: const IconThemeData(color: ItemExpoColors.blue),
       titleTextStyle:
-          ItemExpoTextStyle.bodyBold.copyWith(color: ItemExpoColors.textHigh),
+          ItemExpoTextStyle.bodyBold.copyWith(color: ItemExpoColors.white),
       systemOverlayStyle: SystemUiOverlayStyle.dark.copyWith(
-        statusBarColor: ItemExpoColors.white,
+        statusBarColor: ItemExpoColors.blue,
       ),
     ),
     bottomNavigationBarTheme: const BottomNavigationBarThemeData(
