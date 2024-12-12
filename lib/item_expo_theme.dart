@@ -19,9 +19,9 @@ class ItemExpoTheme {
           onPrimary: ItemExpoColors.darkPurple,
           secondary: ItemExpoColors.neonPink,
           onSecondary: ItemExpoColors.pink,
-          onTertiary: ItemExpoColors.whiteBackground,
+          onTertiary: ItemExpoColors.darkPurple,
           surface: ItemExpoColors.neonPink,
-          onSurface: ItemExpoColors.white,
+          onSurface: ItemExpoColors.black,
           // Gradient
           primaryContainer: ItemExpoColors.purpleGradientDefault.colors.first,
           secondaryContainer: ItemExpoColors.purpleGradientDefault.colors.last,
