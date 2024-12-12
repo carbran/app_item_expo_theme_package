@@ -15,13 +15,13 @@ import 'package:item_expo_theme_package/item_expo_colors.dart';
 class ItemExpoTheme {
   static final ThemeData lightTheme = ThemeData(
     colorScheme: ThemeData.light().colorScheme.copyWith(
-          primary: ItemExpoColors.darkPurple,
-          onPrimary: ItemExpoColors.darkPurple,
+          primary: ItemExpoColors.black,
+          onPrimary: ItemExpoColors.green,
           secondary: ItemExpoColors.neonPink,
           onSecondary: ItemExpoColors.pink,
           onTertiary: ItemExpoColors.darkPurple,
           surface: ItemExpoColors.neonPink,
-          onSurface: ItemExpoColors.black,
+          onSurface: ItemExpoColors.white, // texts
           // Gradient
           primaryContainer: ItemExpoColors.purpleGradientDefault.colors.first,
           secondaryContainer: ItemExpoColors.purpleGradientDefault.colors.last,
@@ -29,7 +29,7 @@ class ItemExpoTheme {
           onSecondaryContainer:
               ItemExpoColors.pinkGradientTriggered.colors.last,
         ),
-    primaryColor: ItemExpoColors.white,
+    primaryColor: ItemExpoColors.red,
     scaffoldBackgroundColor: ItemExpoColors.lightPurple,
     textSelectionTheme: TextSelectionThemeData(
       cursorColor: ItemExpoColors.white,
