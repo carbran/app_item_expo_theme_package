@@ -21,7 +21,7 @@ class ItemExpoTheme {
           onSecondary: ItemExpoColors.pink,
           onTertiary: ItemExpoColors.darkPurple,
           surface: ItemExpoColors.neonPink,
-          onSurface: ItemExpoColors.red, // texts
+          onSurface: ItemExpoColors.white, // texts
           // Gradient
           primaryContainer: ItemExpoColors.purpleGradientDefault.colors.first,
           secondaryContainer: ItemExpoColors.purpleGradientDefault.colors.last,
@@ -35,6 +35,12 @@ class ItemExpoTheme {
       cursorColor: ItemExpoColors.white,
       selectionColor: ItemExpoColors.neonPink.withAlpha(50),
       selectionHandleColor: ItemExpoColors.darkPurple,
+    ),
+    elevatedButtonTheme: const ElevatedButtonThemeData(
+      style: ButtonStyle(
+        backgroundColor: WidgetStatePropertyAll(ItemExpoColors.darkPurple),
+        iconColor: WidgetStatePropertyAll(ItemExpoColors.darkPurple),
+      ),
     ),
     appBarTheme: AppBarTheme(
       backgroundColor: ItemExpoColors.darkPurple,
