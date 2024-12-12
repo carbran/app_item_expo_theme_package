@@ -17,16 +17,17 @@ class ItemExpoTheme {
     colorScheme: ThemeData.light().colorScheme.copyWith(
           primary: ItemExpoColors.darkPurple,
           onPrimary: ItemExpoColors.darkPurple,
-          secondary: ItemExpoColors.whiteBackground,
-          onSecondary: ItemExpoColors.textHigh,
-          onTertiary: ItemExpoColors.neonPink,
+          secondary: ItemExpoColors.neonPink,
+          onSecondary: ItemExpoColors.pink,
+          onTertiary: ItemExpoColors.whiteBackground,
           surface: ItemExpoColors.white,
-          onSurface: ItemExpoColors.pink,
+          onSurface: ItemExpoColors.textHigh,
           // Gradient
           primaryContainer: ItemExpoColors.purpleGradientDefault.colors.first,
           secondaryContainer: ItemExpoColors.purpleGradientDefault.colors.last,
           onPrimaryContainer: ItemExpoColors.pinkGradientTriggered.colors.first,
-          onSecondaryContainer: ItemExpoColors.pinkGradientTriggered.colors.last,
+          onSecondaryContainer:
+              ItemExpoColors.pinkGradientTriggered.colors.last,
         ),
     primaryColor: ItemExpoColors.white,
     scaffoldBackgroundColor: ItemExpoColors.whiteBackground,
@@ -38,7 +39,8 @@ class ItemExpoTheme {
     appBarTheme: AppBarTheme(
       backgroundColor: ItemExpoColors.white,
       actionsIconTheme: const IconThemeData(color: ItemExpoColors.darkPurple),
-      titleTextStyle: ItemExpoTextStyle.bodyBold.copyWith(color: ItemExpoColors.textHigh),
+      titleTextStyle:
+          ItemExpoTextStyle.bodyBold.copyWith(color: ItemExpoColors.textHigh),
       systemOverlayStyle: SystemUiOverlayStyle.dark.copyWith(
         statusBarColor: ItemExpoColors.white,
       ),
@@ -63,8 +65,10 @@ class ItemExpoTheme {
           // Gradient
           primaryContainer: ItemExpoColors.blackGradientDefault.colors.first,
           secondaryContainer: ItemExpoColors.blackGradientDefault.colors.last,
-          onPrimaryContainer: ItemExpoColors.blackGradientTriggered.colors.first,
-          onSecondaryContainer: ItemExpoColors.blackGradientTriggered.colors.last,
+          onPrimaryContainer:
+              ItemExpoColors.blackGradientTriggered.colors.first,
+          onSecondaryContainer:
+              ItemExpoColors.blackGradientTriggered.colors.last,
         ),
     primaryColor: ItemExpoColors.white,
     scaffoldBackgroundColor: ItemExpoColors.whiteBackground,
@@ -76,7 +80,8 @@ class ItemExpoTheme {
     appBarTheme: AppBarTheme(
       backgroundColor: ItemExpoColors.blackBackground,
       actionsIconTheme: const IconThemeData(color: ItemExpoColors.white),
-      titleTextStyle: ItemExpoTextStyle.bodyBold.copyWith(color: ItemExpoColors.white),
+      titleTextStyle:
+          ItemExpoTextStyle.bodyBold.copyWith(color: ItemExpoColors.white),
       systemOverlayStyle: SystemUiOverlayStyle.dark.copyWith(
         statusBarColor: ItemExpoColors.blackBackground,
       ),
