@@ -32,13 +32,13 @@ class ItemExpoTheme {
     primaryColor: ItemExpoColors.white,
     scaffoldBackgroundColor: ItemExpoColors.whiteBackground,
     textSelectionTheme: TextSelectionThemeData(
-      cursorColor: ItemExpoColors.darkPurple,
+      cursorColor: ItemExpoColors.white,
       selectionColor: ItemExpoColors.darkPurple.withAlpha(50),
       selectionHandleColor: ItemExpoColors.darkPurple,
     ),
     appBarTheme: AppBarTheme(
       backgroundColor: ItemExpoColors.white,
-      actionsIconTheme: const IconThemeData(color: ItemExpoColors.darkPurple),
+      actionsIconTheme: const IconThemeData(color: ItemExpoColors.blue),
       titleTextStyle:
           ItemExpoTextStyle.bodyBold.copyWith(color: ItemExpoColors.textHigh),
       systemOverlayStyle: SystemUiOverlayStyle.dark.copyWith(
@@ -46,9 +46,9 @@ class ItemExpoTheme {
       ),
     ),
     bottomNavigationBarTheme: const BottomNavigationBarThemeData(
-      selectedItemColor: ItemExpoColors.darkPurple,
-      unselectedItemColor: ItemExpoColors.lightGray,
-      backgroundColor: ItemExpoColors.white,
+      selectedItemColor: ItemExpoColors.neonPink,
+      unselectedItemColor: ItemExpoColors.white,
+      backgroundColor: ItemExpoColors.darkPurple,
     ),
     fontFamily: 'Mada',
   );
